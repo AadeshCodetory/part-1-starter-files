@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadesh Tiwari</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="font.css">
+    <script src="./matter.js" defer></script>
+
+
+    <!-- Add new -->
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadesh Tiwari | Portfolio</title>
+    <meta name="description" content="Portfolio of Aadesh Tiwari - AI Developer, Java & Web Development Enthusiast, MERN Learner.">
+    <meta property="og:title" content="Aadesh Tiwari | Portfolio">
+    <meta property="og:description" content="Portfolio of Aadesh Tiwari - AI Developer, Java & Web Development Enthusiast, MERN Learner.">
+    <meta property="og:type" content="website">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="index.css">
+
+
+
+
+</head>
+
+<body class="bg-[#111] text-white font-['Nunito']">
+
+
+    <!-- Navigation -->
+    <nav  class="nav">
+        <div class="container nav-content">
+            <div class="nav-brand">
+                <span class="text-primary">&lt;</span>Aadesh Tiwari<span class="text-primary">/&gt;</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div  class="nav-links">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                <button  class="btn-icon theme-toggle" id="themeToggle">
+                    <i data-lucide="sun" class="icon-sun"></i>
+                    <i data-lucide="moon" class="icon-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <section id="home" class="flex flex-col justify-between h-screen">
+        <header class="z-10 pointer-events-none flex items-center justify-between w-full px-4 mt-4 max-w-screen-xl mx-auto">
+            <!-- Logo -->
+            <svg width="70" height="70" viewBox="0 0 406 368" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M314.516 203.174L314.516 349.104L162.117 208.727M314.516 203.174L282.653 203.26M314.516 203.174L337.498 203.26L380.617 170.782L314.516 170.782M162.117 208.727L117.661 170.634L157.117 170.782M162.117 208.727L65.1165 301.139L20.176 301.139L137.099 188.83M200.117 170.782L282.653 96.1739L282.653 170.782M200.117 170.782L282.653 170.782M200.117 170.782L157.117 170.782M282.653 203.26L210.462 202.796L282.653 270.76L282.653 203.26ZM282.653 170.782L314.516 170.782M157.117 170.782L315.751 20.1061L314.516 170.782"
+                    stroke="currentColor" stroke-width="10" />
+            </svg>
+            <!-- sun moon phone whatsaap Logos -->
+            <div class="flex  gap-4 pointer-events-auto">
+                <!-- SON -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-sun">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <!-- MOON -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="hidden">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+                <!-- PHONE -->
+                <a href="tel:+919026469552">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-phone tel">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg>
+                </a>
+                <!-- WHATSAPP -->
+                <a href="https://wa.me/9026469552?text=Hey Aadesh, I,m from your Portfolio and I want know more about your services" target="_blank">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp"
+                    class="svg-inline--fa fa-whatsapp fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" width="24"
+                    height="24" viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                    </path>
+                </svg>
+                </a>
+            </div>
+
+        </header>
+        <div class="absolute inset-0 hidden md:block" id="wrapper-canvas">
+           
+        </div>
+        <div class="flex -mt-10 relative ">
+            <div class="w-full px-4 max-w-screen-xl mx-auto">
+                  <!-- Name Logo -->
+                  <svg  viewBox="0 0 406 368" fill="none" xmlns="http://www.w3.org/2000/svg" class=" pointer-events-none absolute top-0 left-1/2 -translate-y-1/4 -translate-x-1/2 md:w-[650px] sm:w-[400px] w-[300px]">
+                    <path
+                        d="M314.899 203.5L314.899 349.43L162.5 209.053M314.899 203.5L283.037 203.586M314.899 203.5L337.881 203.586L381 171.109L314.899 171.109M162.5 209.053L118.044 170.96L157.5 171.109M162.5 209.053L65.5 301.465L20.5595 301.465L137.482 189.156M200.5 171.109L283.037 96.5L283.037 171.109M200.5 171.109L283.037 171.109M200.5 171.109L157.5 171.109M283.037 203.586L210.846 203.123L283.037 271.086L283.037 203.586ZM283.037 171.109L314.899 171.109M157.5 171.109L316.135 20.4322L314.899 171.109"
+                        stroke="#1F2667" stroke-opacity="0.9" stroke-width="10" />
+                    <path
+                        d="M314.899 203.5L314.899 349.43L162.5 209.053M314.899 203.5L283.037 203.586M314.899 203.5L337.881 203.586L381 171.109L314.899 171.109M162.5 209.053L118.044 170.96L157.5 171.109M162.5 209.053L65.5 301.465L20.5595 301.465L137.482 189.156M200.5 171.109L283.037 96.5L283.037 171.109M200.5 171.109L283.037 171.109M200.5 171.109L157.5 171.109M283.037 203.586L210.846 203.123L283.037 271.086L283.037 203.586ZM283.037 171.109L314.899 171.109M157.5 171.109L316.135 20.4322L314.899 171.109"
+                        stroke="url(#paint0_linear)" stroke-width="10" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="205.549" y1="20.0169" x2="204.338" y2="342.461"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#1595B6" />
+                            <stop offset="1" stop-color="#1595B6" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+               <div class="relative">
+                <!-- My name -->
+                <h1 class=" pointer-events-none text-[48px] md:text-[64px] font-extrabold relative mr-20">Aadesh Tiwari</h1>
+                <!-- my Role -->
+                <p class=" pointer-events-none font-['Merriweather'] italic  mb-8">AI Developer & IT Enthusiast</p>
+                <!-- About me -->
+                <button  class="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-200 group">About me
+                    <svg href="#about-me"class="w-7 absolute top-1/2 -translate-y-1/2 -right-4 group-hover:-right-6 ease-in-out duration-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome
+                         Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f1f4f8" d="M438.6 278.6c12.5-12.5
+                          12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                </button>
+               </div>
+              
+            </div>
+
+
+            <ul class="ml-auto mr-8 space-y-6 text-[#b0b2c3] absolute right-8">
+                <!-- GitHub -->
+                 <li>
+                    <a href="https://github.com/AadeshCodetory">
+                        <svg    class="w-7 hover:text-white " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <path
+                            fill="currentColor"
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </a>
+                 </li>
+                <!-- Linkdin -->
+                <li>
+                    <a href="https://www.linkedin.com/in/aadesh-tiwari-243655276/" target="_blank"> <svg
+                            class="w-7 hover:text-white " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg></a>
+                </li>
+                <!-- Twitter -->
+                <li>
+                    <a href="https://twitter.com/AdeshTi29292953" target="_blank">
+                        <svg class="w-7 hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                    </a>
+                </li>
+                <!-- Instagram -->
+                <li>
+                    <a href="https://www.instagram.com/co_desert?igsh=OHZvN3dqMWh2MTkx" target="_blank"><svg
+                            class="w-7 hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg></a>
+                </li>
+                <!-- Gmail -->
+                <li>
+                    <a href="mailto:aadeshcodetory@gmail.com" target="_blank">
+                        <svg class="w-7 hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                        </svg>
+                    </a>
+                </li>
+                <!-- Youtube -->
+                <li>
+                    <a href="https://youtube.com/@co_desert?si=F3DHowGA8L_vT7m3" target="_blank">
+                        <svg class="w-7 hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                            fill="currentColor"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                        </svg>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="after:contrast-[''] after:absolute after:w[5px] after:h-8 after:bg-red-400 self-center">
+             <!-- Leatest Work -->
+        <button href="#experince" class="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-200 group  m-20">Latest Work
+            <svg class="w-7 absolute left-1/2 -translate-x-1/2 top-10 group-hover:top-12 ease-in-out duration-200 rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#f1f4f8" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+        </button>
+        </div>
+       
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+<script src="https://cdn/jsdelivr.net/npm/matter-wrap@0.2.0/build/matter-wrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.min.js"></script>
+
+
+<!-- Add new -->
+     <!-- About Section -->
+    <section id="about-me" class="section">
+        <div id="about" class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="text-primary">Me</span></h2>
+                <p class="section-subtitle">AI Developer & IT Enthusiast</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-description">
+                    <p>AI Developer | Java | Web Development | MERN (Learning) An IT enthusiast with 1 year of experience in AI development and a strong foundation in Java, SQL, and Web technologies. Passionate about building scalable solutions and learning modern stacks,
+                        I am currently pursuing M.Sc IT at the University of Mumbai. I have 1 year of professional experience at Codengrow as an AI Developer, working on classification, regression, and NLP projects. Skilled in Java, SQL, Python, and frontend development 
+                        (HTML, CSS, JS, Bootstrap, Tailwind). I am also learning the MERN stack to expand my full-stack development skills.</p>
+                </div>
+                <div class="about-image">
+                    <img height="200" src="assets/images/myPic.png" alt="Aadesh Tiwari" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & <span class="text-primary">Expertise</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Bootstrap, Tailwind</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend</h3>
+                    <ul>
+                        <li>Core Java, J2EE</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Databases</h3>
+                    <ul>
+                        <li>SQL, MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">AI Tools</h3>
+                    <ul>
+                        <li>Agentic AI (Replit)</li>
+                        <li>Generative AI (ChatGPT)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Other Tools</h3>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>MERN Stack (Learning)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="text-primary">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Gym Management Website</h3>
+                        <p class="project-description">A system to manage gym memberships with an admin panel for plans, payments, and user details.</p>
+                        <div class="project-tech">
+                            <span class="badge badge-sm">HTML</span>
+                            <span class="badge badge-sm">CSS (Tailwind)</span>
+                            <span class="badge badge-sm">JavaScript</span>
+                            <span class="badge badge-sm">Java</span>
+                            <span class="badge badge-sm">MySQL</span>
+                        </div>
+                        <!-- View Button -->
+<a href="https://github.com/AadeshCodetory/GymGenixs.git" target="_blank" class="view-btn">View</a>
+
+<!-- Button Styling (optional) -->
+<style>
+.view-btn {
+  display: inline-block;
+  background: #00aaff;   /* button color */
+  color: #fff;           /* text color */
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.view-btn:hover {
+  background: #0077cc;   /* darker on hover */
+}
+</style>
+
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">CodeNgrow Portfolio</h3>
+                        <p class="project-description">Codengrow is an online learning platform focused on digital skills such as programming, AI, and web development.
+It offers hands-on courses, real-world project assignments, and mentoring to help learners build job-ready competencies.
+The platform emphasizes practical exposure through live sessions, coding labs, and collaborative tasks.
+Ideal for students or professionals seeking structured upskilling in technology and industry-relevant tools.</p>
+                        <div class="project-tech">
+                            <!-- <span class="badge badge-sm">HTML</span>
+                            <span class="badge badge-sm">CSS (Bootstrap)</span>
+                            <span class="badge badge-sm">JavaScript</span> -->
+                        </div>
+                        <!-- View Button -->
+<a href="https://codengrow.com/" target="_blank" class="view-btn">View</a>
+
+<!-- Button Styling (optional) -->
+<style>
+.view-btn {
+  display: inline-block;
+  background: #00aaff;   /* button color */
+  color: #fff;           /* text color */
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.view-btn:hover {
+  background: #0077cc;   /* darker on hover */
+}
+</style>
+
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">CodeNgrow Works</h3>
+                        <p class="project-description">Developed AI models for classification, regression, and NLP.
+                         Collaborated with teams to deploy AI solutions in production.
+                         Documented code, experiments, and results for team use.
+                         Participated in code reviews and improved efficiency.</p>
+                        <div class="project-tech">
+                            <span class="badge badge-sm">HTML, CSS, JS</span>
+                            <span class="badge badge-sm">Java, Python</span>
+                            <span class="badge badge-sm">SQL, MySQL</span>
+                            <span class="badge badge-sm">Agentic AI (Replit)</span>
+                            <span class="badge badge-sm">Generative AI (ChatGPT)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work <span class="text-primary">Experience</span></h2>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <h3 class="experience-title">AI Developer</h3>
+                        <h4 class="experience-company">Codengrow</h4>
+                        <div class="experience-meta">
+                            <span class="experience-period">Mar 2024 - Mar 2025</span>
+                            <span class="badge">Full-time</span>
+                        </div>
+                        <ul>
+                            <li>Developed AI models for classification, regression, and NLP.</li>
+                            <li>Collaborated with teams to deploy AI solutions in production.</li>
+                            <li>Documented code, experiments, and results for team use.</li>
+                            <li>Participated in code reviews and improved efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-content">
+                        <h3 class="experience-title">Intern</h3>
+                        <h4 class="experience-company">Codengrow</h4>
+                        <div class="experience-meta">
+                            <span class="experience-period">Sep 2023 - Feb 2024</span>
+                            <span class="badge">Internship</span>
+                        </div>
+                        <ul>
+                            <li>Documented and presented data to seniors on projects.</li>
+                            <li>Developed and managed code for new and existing projects.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="text-primary">Touch</span></h2>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <p>Email: <a href="mailto:aadeshcodetory@gmail.com">aadeshcodetory@gmail.com</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <p>Phone: 9026469552</p>
+                            </div>
+                            <div class="contact-item">
+                                <p>Location: Thane West, Maharashtra, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/AadeshCodetory" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+                            <a href="https://www.linkedin.com/in/aadesh-tiwari-243655276/" target="_blank" class="btn btn-sm btn-outline">LinkedIn</a>
+                            <a href="https://twitter.com/AdeshTi29292953" target="_blank" class="btn btn-sm btn-outline">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="nav-brand">
+                        <span class="text-primary">&lt;</span>Aadesh Tiwari<span class="text-primary">/&gt;</span>
+                    </div>
+                    <p>AI Developer & IT Enthusiast passionate about building modern digital solutions.</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Let's Connect</h3>
+                    <p>Email: aadeshcodetory@gmail.com</p>
+                    <p>Thane West, Maharashtra, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aadesh Tiwari.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js" defer></script>
+
+
+
+
+</body>
+
+</html>
